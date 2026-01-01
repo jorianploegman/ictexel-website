@@ -7,20 +7,7 @@
       "secondary": "Meer over onze diensten"
     }
   },
-  "stats": [
-    {
-      "value": "10+",
-      "label": "Jaar ervaring"
-    },
-    {
-      "value": "50+",
-      "label": "Tevreden klanten"
-    },
-    {
-      "value": "24/7",
-      "label": "Ondersteuning"
-    }
-  ],
+
   "services": [
     {
       "id": "azure",
@@ -125,6 +112,40 @@
         "netwerkbeheer"
       ],
       "testimonial": "Professioneel advies en snelle service. ICTexel denkt mee in oplossingen."
+    },
+    {
+      "id": "aktexel",
+      "name": "AKTexel",
+      "industry": "Accountancy",
+      "logo": "/images/customers/aktexel-logo.png",
+      "tags": [
+        "microsoft 365",
+        "serverbeheer",
+        "netwerkbeheer"
+      ],
+      "testimonial": "ICTexel begrijpt onze IT-behoeften en levert altijd betrouwbare oplossingen."
+    },
+    {
+      "id": "uitvaartcentrum-texel",
+      "name": "Uitvaartcentrum Texel",
+      "industry": "Uitvaartzorg",
+      "logo": "/images/customers/uitvaartcentrum-texel-logo.png",
+      "tags": [
+        "netwerkbeheer",
+        "microsoft 365"
+      ],
+      "testimonial": "Betrouwbare IT-ondersteuning waar we op kunnen vertrouwen in belangrijke momenten."
+    },
+    {
+      "id": "hotel-de-lindeboom",
+      "name": "Hotel de Lindeboom",
+      "industry": "Horeca",
+      "logo": "/images/customers/hotel-de-lindeboom-logo.png",
+      "tags": [
+        "wifi",
+        "netwerkbeheer"
+      ],
+      "testimonial": "ICTexel zorgt ervoor dat onze gasten altijd van snelle wifi kunnen genieten."
     }
   ],
   "projects": [
@@ -166,44 +187,63 @@
         "Mobiel bereikbaar op bedrijfsnummer",
         "Geavanceerde belstatistieken"
       ]
+    },
+    {
+      "id": "project-4",
+      "title": "Cybersecurity & Backup Oplossing",
+      "description": "Implementatie van Acronis Cyber Protect voor complete beveiliging tegen ransomware en dataverlies bij een lokaal bedrijf.",
+      "image": "/images/projects/project1-netwerk.jpg",
+      "category": "Security",
+      "tags": ["acronis", "backup", "security"],
+      "results": [
+        "100% bescherming tegen ransomware",
+        "Automatische dagelijkse backups",
+        "Snelle disaster recovery"
+      ]
     }
   ],
   "partners": [
     {
       "id": "microsoft",
       "name": "Microsoft",
-      "logo": "/images/partners/microsoft.png",
+      "logo": "/images/brands/logo-microsoft.png",
       "description": "Microsoft Partner voor Azure en Microsoft 365"
     },
     {
       "id": "synology",
       "name": "Synology",
-      "logo": "/images/partners/synology.png",
+      "logo": "/images/brands/logo-synology.png",
       "description": "Synology Partner voor NAS-oplossingen"
     },
     {
       "id": "acronis",
       "name": "Acronis",
-      "logo": "/images/partners/acronis.png",
+      "logo": "/images/brands/logo-acronis.png",
       "description": "Acronis Partner voor backup en security"
     },
     {
       "id": "unifi",
       "name": "UniFi",
-      "logo": "/images/partners/unifi.png",
+      "logo": "/images/brands/logo-unifi.png",
       "description": "Ubiquiti UniFi Partner voor netwerken"
     },
     {
       "id": "hp",
       "name": "HP",
-      "logo": "/images/partners/hp.png",
+      "logo": "/images/brands/logo-hp.png",
       "description": "HP Partner voor hardware"
     },
     {
       "id": "zyxel",
       "name": "Zyxel",
-      "logo": "/images/partners/zyxel.png",
+      "logo": "/images/brands/logo-zyxel.png",
       "description": "Zyxel Partner voor netwerk hardware"
+    },
+    {
+      "id": "3cx",
+      "name": "3CX",
+      "logo": "/images/brands/logo-3cx.png",
+      "description": "3CX Partner voor VoIP telefonie"
     }
   ],
   "contact": {

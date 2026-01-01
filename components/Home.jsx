@@ -13,13 +13,16 @@ import {
   CheckCircle,
   ArrowRight,
   Menu,
-  X
+  X,
+  ChevronDown,
+  ChevronUp
 } from 'lucide-react';
 import content from '@/data/content.json';
 
 export default function Home() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
+  const [showAllProjects, setShowAllProjects] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -151,34 +154,16 @@ export default function Home() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href="#contact"
-              className="bg-cyan-500 text-white px-8 py-4 rounded-lg font-semibold hover:bg-cyan-600 transition-all duration-300 ease-in-out transform hover:scale-105 shadow-lg"
+              className="bg-gradient-to-r from-[#016075] to-[#014459] text-white px-8 py-4 rounded-lg font-semibold hover:from-[#014d5e] hover:to-[#013041] transition-all duration-300 ease-in-out transform hover:scale-105 shadow-lg"
             >
               Neem contact op
             </a>
             <a
               href="#diensten"
-              className="bg-purple-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-purple-700 transition-all duration-300 ease-in-out transform hover:scale-105 shadow-lg"
+              className="bg-gradient-to-r from-[#872173] to-[#5a1549] text-white px-8 py-4 rounded-lg font-semibold hover:from-[#6f1a5e] hover:to-[#3d0f31] transition-all duration-300 ease-in-out transform hover:scale-105 shadow-lg"
             >
               Bekijk onze diensten
             </a>
-          </div>
-        </div>
-      </section>
-
-      {/* Stats Section */}
-      <section className="bg-gray-50 py-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {content.stats.map((stat, index) => (
-              <div key={index} className="text-center">
-                <div className="text-5xl font-bold text-cyan-500 mb-2">
-                  {stat.value}
-                </div>
-                <div className="text-slate-600 font-medium">
-                  {stat.label}
-                </div>
-              </div>
-            ))}
           </div>
         </div>
       </section>
@@ -244,40 +229,71 @@ export default function Home() {
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {content.projects.map((project, index) => (
-              <div
-                key={project.id}
-                className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 ease-in-out hover:scale-105"
-              >
-                <div className={`h-48 bg-gradient-to-br ${
-                  index === 0 ? 'from-cyan-400 to-blue-500' :
-                  index === 1 ? 'from-purple-400 to-pink-500' :
-                  'from-green-400 to-cyan-500'
-                }`}></div>
-                <div className="p-6">
-                  <div className="mb-3">
-                    <span className="bg-cyan-100 text-cyan-700 px-3 py-1 rounded-full text-sm font-medium">
-                      {project.category}
-                    </span>
+            {(showAllProjects ? content.projects : content.projects.slice(0, 3)).map((project) => {
+              // Map project IDs to their image files
+              const projectImages = {
+                'project-1': '/images/projects/project1-netwerk.jpg',
+                'project-2': '/images/projects/project2-azure.jpg',
+                'project-3': '/images/projects/project3-telefonie-voip.jpg',
+                'project-4': '/images/projects/project1-netwerk.jpg'
+              };
+
+              return (
+                <div
+                  key={project.id}
+                  className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 ease-in-out hover:scale-105"
+                >
+                  <div className="h-48 overflow-hidden">
+                    <img
+                      src={projectImages[project.id]}
+                      alt={project.title}
+                      className="w-full h-full object-cover transition-transform duration-500 ease-in-out hover:scale-110"
+                    />
                   </div>
-                  <h3 className="text-xl font-bold mb-3 text-slate-900">
-                    {project.title}
-                  </h3>
-                  <p className="text-slate-600 mb-4">
-                    {project.description}
-                  </p>
-                  <ul className="space-y-2">
-                    {project.results.map((result, idx) => (
-                      <li key={idx} className="flex items-center text-sm text-slate-600">
-                        <CheckCircle className="text-green-500 mr-2 flex-shrink-0" size={16} />
-                        {result}
-                      </li>
-                    ))}
-                  </ul>
+                  <div className="p-6">
+                    <div className="mb-3">
+                      <span className="bg-cyan-100 text-cyan-700 px-3 py-1 rounded-full text-sm font-medium">
+                        {project.category}
+                      </span>
+                    </div>
+                    <h3 className="text-xl font-bold mb-3 text-slate-900">
+                      {project.title}
+                    </h3>
+                    <p className="text-slate-600 mb-4">
+                      {project.description}
+                    </p>
+                    <ul className="space-y-2">
+                      {project.results.map((result, idx) => (
+                        <li key={idx} className="flex items-center text-sm text-slate-600">
+                          <CheckCircle className="text-green-500 mr-2 flex-shrink-0" size={16} />
+                          {result}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
                 </div>
-              </div>
-            ))}
+              );
+            })}
           </div>
+
+          {/* Show More/Less Button */}
+          {content.projects.length > 3 && (
+            <div className="text-center mt-8">
+              <button
+                onClick={() => setShowAllProjects(!showAllProjects)}
+                className="group flex items-center gap-2 mx-auto text-slate-600 hover:text-cyan-500 transition-all duration-300 ease-in-out"
+              >
+                <span className="text-sm font-medium">
+                  {showAllProjects ? 'minder projecten' : 'meer projecten'}
+                </span>
+                {showAllProjects ? (
+                  <ChevronUp size={20} className="group-hover:-translate-y-1 transition-transform duration-300" />
+                ) : (
+                  <ChevronDown size={20} className="group-hover:translate-y-1 transition-transform duration-300" />
+                )}
+              </button>
+            </div>
+          )}
         </div>
       </section>
 
@@ -292,37 +308,80 @@ export default function Home() {
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {content.customers.map((customer) => (
-              <div
-                key={customer.id}
-                className="bg-white border border-gray-200 rounded-xl p-6 hover:shadow-xl transition-all duration-300 ease-in-out hover:-translate-y-1"
-              >
-                <div className="bg-gray-100 h-32 rounded-lg mb-4 flex items-center justify-center">
-                  <span className="text-2xl font-bold text-slate-400">
+            {content.customers.map((customer) => {
+              // Map customer IDs to their image files
+              const customerImages = {
+                'civ-texel': {
+                  background: '/images/customers/civ-texel-winkel.jpg',
+                  logo: '/images/customers/civ-texel-logo.png'
+                },
+                'de-krim-texel': {
+                  background: '/images/customers/de-krim-texel-bedrijf.jpg',
+                  logo: '/images/customers/de-krim-texel-logo.png'
+                },
+                'golfbaan-texelse': {
+                  background: '/images/customers/golfbaan-de-texelse-bedrijf.jpg',
+                  logo: '/images/customers/logo-golfbaan-de-texelse.png'
+                },
+                'aktexel': {
+                  background: '/images/customers/aktexel-bedrijf.jpg',
+                  logo: '/images/customers/aktexel-logo.png'
+                },
+                'uitvaartcentrum-texel': {
+                  background: '/images/customers/uitvaartcentrum-texel-bedrijf.jpg',
+                  logo: '/images/customers/uitvaartcentrum-texel-logo.png'
+                },
+                'hotel-de-lindeboom': {
+                  background: '/images/customers/hotel-de-lindeboom-bedrijf.jpg',
+                  logo: '/images/customers/hotel-de-lindeboom-logo.png'
+                }
+              };
+
+              const images = customerImages[customer.id];
+
+              return (
+                <div
+                  key={customer.id}
+                  className="bg-white border border-gray-200 rounded-xl p-6 hover:shadow-xl transition-all duration-300 ease-in-out hover:-translate-y-1 group"
+                >
+                  <div className="relative h-32 rounded-lg mb-4 flex items-center justify-center overflow-hidden">
+                    {/* Background image with faded opacity */}
+                    <img
+                      src={images.background}
+                      alt=""
+                      className="absolute top-0 left-0 w-full h-full object-cover opacity-10"
+                    />
+                    {/* Logo with grayscale filter that becomes color on hover */}
+                    <img
+                      src={images.logo}
+                      alt={`${customer.name} Logo`}
+                      className={`relative z-10 h-20 w-auto object-contain grayscale group-hover:grayscale-0 transition-all duration-300 ease-in-out ${
+                        customer.id === 'de-krim-texel' ? 'px-6' : ''
+                      }`}
+                    />
+                  </div>
+                  <h3 className="text-xl font-bold mb-2 text-slate-900">
                     {customer.name}
-                  </span>
+                  </h3>
+                  <p className="text-sm text-slate-500 mb-4">
+                    {customer.industry}
+                  </p>
+                  <div className="flex flex-wrap gap-2 mb-4">
+                    {customer.tags.map((tag, idx) => (
+                      <span
+                        key={idx}
+                        className="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-xs font-medium"
+                      >
+                        {tag}
+                      </span>
+                    ))}
+                  </div>
+                  <p className="text-slate-600 italic text-sm">
+                    "{customer.testimonial}"
+                  </p>
                 </div>
-                <h3 className="text-xl font-bold mb-2 text-slate-900">
-                  {customer.name}
-                </h3>
-                <p className="text-sm text-slate-500 mb-4">
-                  {customer.industry}
-                </p>
-                <div className="flex flex-wrap gap-2 mb-4">
-                  {customer.tags.map((tag, idx) => (
-                    <span
-                      key={idx}
-                      className="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-xs font-medium"
-                    >
-                      {tag}
-                    </span>
-                  ))}
-                </div>
-                <p className="text-slate-600 italic text-sm">
-                  "{customer.testimonial}"
-                </p>
-              </div>
-            ))}
+              );
+            })}
           </div>
         </div>
       </section>
@@ -333,15 +392,17 @@ export default function Home() {
           <h2 className="text-3xl font-bold text-center mb-12">
             Wij werken met de <span className="text-cyan-500">beste merken</span>
           </h2>
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8">
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-7 gap-8">
             {content.partners.map((partner) => (
               <div
                 key={partner.id}
-                className="bg-white rounded-lg p-6 flex items-center justify-center hover:shadow-lg transition-all duration-300 ease-in-out hover:-translate-y-1"
+                className="bg-white rounded-lg p-6 flex items-center justify-center"
               >
-                <span className="text-lg font-bold text-slate-400">
-                  {partner.name}
-                </span>
+                <img
+                  src={partner.logo}
+                  alt={`${partner.name} logo`}
+                  className="h-12 w-auto object-contain"
+                />
               </div>
             ))}
           </div>
