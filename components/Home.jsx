@@ -1,4 +1,7 @@
+'use client'
+
 import { useState, useEffect } from 'react';
+import Image from 'next/image';
 import {
   Cloud,
   Briefcase,
@@ -12,7 +15,7 @@ import {
   Menu,
   X
 } from 'lucide-react';
-import content from '../data/content.json';
+import content from '@/data/content.json';
 
 export default function Home() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -349,11 +352,12 @@ export default function Home() {
       <section id="over" className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <img
+            <div className="relative w-full h-[600px]">
+              <Image
                 src="/images/jorian-ploegman.jpg"
                 alt="Jorian Ploegman - ICTexel"
-                className="rounded-2xl shadow-2xl w-full h-auto object-cover"
+                fill
+                className="rounded-2xl shadow-2xl object-cover"
               />
             </div>
             <div>

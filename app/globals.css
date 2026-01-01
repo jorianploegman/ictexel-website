@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Smooth scrolling for hash links */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Ensure smooth scroll padding for fixed navbar */
+html {
+  scroll-padding-top: 5rem;
+}

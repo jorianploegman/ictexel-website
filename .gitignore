@@ -15,6 +15,12 @@ dist
 dist-ssr
 build
 
+# Next.js
+/.next/
+/out/
+next-env.d.ts
+*.tsbuildinfo
+
 # Environment variables
 .env
 .env.local
