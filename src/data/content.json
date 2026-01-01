@@ -1,0 +1,315 @@
+{
+  "hero": {
+    "tagline": "Betrouwbaar IT-beheer voor bedrijven op Texel",
+    "subtitle": "Persoonlijke service, professionele oplossingen. Van netwerken tot cloud – ICTexel denkt met u mee en zorgt voor een stabiele, veilige IT-omgeving.",
+    "cta": {
+      "primary": "Neem contact op",
+      "secondary": "Meer over onze diensten"
+    }
+  },
+  "stats": [
+    {
+      "value": "10+",
+      "label": "Jaar ervaring"
+    },
+    {
+      "value": "50+",
+      "label": "Tevreden klanten"
+    },
+    {
+      "value": "24/7",
+      "label": "Ondersteuning"
+    }
+  ],
+  "services": [
+    {
+      "id": "azure",
+      "title": "Microsoft Azure",
+      "description": "Schaalbarecloud-oplossingen voor uw bedrijf. Wij helpen u bij migratie, beheer en optimalisatie van uw Azure-omgeving. Van virtual machines tot complete infrastructuren.",
+      "icon": "cloud",
+      "features": [
+        "Cloud migratie",
+        "Beheer & monitoring",
+        "Backup & disaster recovery",
+        "Kostenbeheer"
+      ]
+    },
+    {
+      "id": "microsoft365",
+      "title": "Microsoft 365",
+      "description": "Productief werken met de nieuwste Office-toepassingen. Complete implementatie en beheer van Microsoft 365, inclusief Exchange, SharePoint en Teams voor optimale samenwerking.",
+      "icon": "briefcase",
+      "features": [
+        "Implementatie & migratie",
+        "Gebruikersbeheer",
+        "Beveiliging & compliance",
+        "Training & support"
+      ]
+    },
+    {
+      "id": "acronis",
+      "title": "Acronis Security",
+      "description": "Geavanceerde cyberbeveiliging en backup-oplossingen. Bescherm uw bedrijf tegen ransomware en dataverlies met geïntegreerde backup, anti-malware en endpoint protection.",
+      "icon": "shield",
+      "features": [
+        "Cyber protection",
+        "Automatische backups",
+        "Ransomware bescherming",
+        "Disaster recovery"
+      ]
+    },
+    {
+      "id": "voip",
+      "title": "VoIP & Telefonie",
+      "description": "Moderne telefonieoplossingen voor flexibel werken. Professionele VoIP-systemen die meegroeien met uw bedrijf, inclusief mobiele integratie en geavanceerde functies.",
+      "icon": "phone",
+      "features": [
+        "VoIP telefonie",
+        "Mobiele integratie",
+        "Nummerportabiliteit",
+        "Beheer & monitoring"
+      ]
+    }
+  ],
+  "about": {
+    "title": "Persoonlijke IT-service op Texel",
+    "subtitle": "Uw lokale IT-partner",
+    "content": "ICTexel biedt persoonlijke IT-diensten aan bedrijven op Texel. Met ruim 10 jaar ervaring begrijpen wij de unieke uitdagingen van ondernemers op het eiland. Of het nu gaat om een stabiel netwerk voor uw hotel, een veilige cloudomgeving voor uw administratie, of professionele telefonie – wij staan voor u klaar.\n\nOnze aanpak is praktisch en persoonlijk. We spreken uw taal, denken in oplossingen en zijn er als u ons nodig heeft. Van advies en installatie tot proactief beheer en ondersteuning: ICTexel zorgt dat uw IT werkt, zodat u zich kunt focussen op uw bedrijf.",
+    "values": [
+      {
+        "title": "Lokaal & Bereikbaar",
+        "description": "Direct beschikbaar voor bedrijven op Texel"
+      },
+      {
+        "title": "Persoonlijke aanpak",
+        "description": "Maatwerk oplossingen die passen bij uw bedrijf"
+      },
+      {
+        "title": "Proactief beheer",
+        "description": "Problemen voorkomen in plaats van oplossen"
+      }
+    ]
+  },
+  "customers": [
+    {
+      "id": "civ-texel",
+      "name": "CIV Texel",
+      "industry": "Visserij",
+      "logo": "/images/customers/civ-texel.png",
+      "tags": [
+        "serverbeheer",
+        "netwerkbeheer",
+        "camerabeveiliging",
+        "microsoft 365",
+        "wifi"
+      ],
+      "testimonial": "ICTexel zorgt voor een stabiele en veilige IT-omgeving. Hun proactieve aanpak voorkomt problemen."
+    },
+    {
+      "id": "de-krim-texel",
+      "name": "De Krim Texel",
+      "industry": "Vakantiepark",
+      "logo": "/images/customers/de-krim-texel.png",
+      "tags": [
+        "netwerkbeheer",
+        "wifi"
+      ],
+      "testimonial": "Betrouwbare netwerken en wifi zijn essentieel voor onze gasten. ICTexel levert topkwaliteit."
+    },
+    {
+      "id": "golfbaan-texelse",
+      "name": "Golfbaan de Texelse",
+      "industry": "Sport & Recreatie",
+      "logo": "/images/customers/golfbaan-texelse.png",
+      "tags": [
+        "netwerkbeheer"
+      ],
+      "testimonial": "Professioneel advies en snelle service. ICTexel denkt mee in oplossingen."
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Netwerk Modernisering Vakantiepark",
+      "description": "Complete vernieuwing van de netwerkinfrastructuur voor een groot vakantiepark op Texel. Inclusief UniFi WiFi-oplossing voor optimale dekking.",
+      "image": "/images/projects/project-1.jpg",
+      "category": "Netwerk",
+      "tags": ["netwerk", "wifi", "unifi"],
+      "results": [
+        "100% WiFi dekking over het park",
+        "50% snelheidsverbetering",
+        "Centraal beheer en monitoring"
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Cloud Migratie MKB-bedrijf",
+      "description": "Migratie van on-premise servers naar Microsoft Azure met volledige integratie van Microsoft 365 en Acronis backup-oplossing.",
+      "image": "/images/projects/project-2.jpg",
+      "category": "Cloud",
+      "tags": ["azure", "microsoft 365", "migratie"],
+      "results": [
+        "Lagere IT-kosten",
+        "Flexibel thuiswerken mogelijk",
+        "Verbeterde beveiliging"
+      ]
+    },
+    {
+      "id": "project-3",
+      "title": "VoIP Telefonie Implementatie",
+      "description": "Implementatie van moderne VoIP-telefonieoplossing voor een bedrijf met 25 medewerkers, inclusief mobiele integratie.",
+      "image": "/images/projects/project-3.jpg",
+      "category": "Telefonie",
+      "tags": ["voip", "telefonie", "mobiel"],
+      "results": [
+        "30% kostenbesparing",
+        "Mobiel bereikbaar op bedrijfsnummer",
+        "Geavanceerde belstatistieken"
+      ]
+    }
+  ],
+  "partners": [
+    {
+      "id": "microsoft",
+      "name": "Microsoft",
+      "logo": "/images/partners/microsoft.png",
+      "description": "Microsoft Partner voor Azure en Microsoft 365"
+    },
+    {
+      "id": "synology",
+      "name": "Synology",
+      "logo": "/images/partners/synology.png",
+      "description": "Synology Partner voor NAS-oplossingen"
+    },
+    {
+      "id": "acronis",
+      "name": "Acronis",
+      "logo": "/images/partners/acronis.png",
+      "description": "Acronis Partner voor backup en security"
+    },
+    {
+      "id": "unifi",
+      "name": "UniFi",
+      "logo": "/images/partners/unifi.png",
+      "description": "Ubiquiti UniFi Partner voor netwerken"
+    },
+    {
+      "id": "hp",
+      "name": "HP",
+      "logo": "/images/partners/hp.png",
+      "description": "HP Partner voor hardware"
+    },
+    {
+      "id": "zyxel",
+      "name": "Zyxel",
+      "logo": "/images/partners/zyxel.png",
+      "description": "Zyxel Partner voor netwerk hardware"
+    }
+  ],
+  "contact": {
+    "phone": "0222 726060",
+    "email": "info@ictexel.nl",
+    "location": "Texel, Nederland",
+    "hours": "Ma-Vr 08:00-18:00",
+    "address": {
+      "street": "",
+      "city": "Texel",
+      "postalCode": "",
+      "country": "Nederland"
+    },
+    "social": {
+      "linkedin": "",
+      "facebook": "",
+      "twitter": ""
+    }
+  },
+  "navigation": {
+    "main": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Diensten",
+        "href": "#diensten"
+      },
+      {
+        "label": "Over ons",
+        "href": "#over"
+      },
+      {
+        "label": "Klanten",
+        "href": "#klanten"
+      },
+      {
+        "label": "Projecten",
+        "href": "#projecten"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact"
+      }
+    ]
+  },
+  "footer": {
+    "tagline": "Uw betrouwbare IT-partner op Texel",
+    "copyright": "© 2024 ICTexel. Alle rechten voorbehouden.",
+    "links": [
+      {
+        "title": "Diensten",
+        "items": [
+          {
+            "label": "Microsoft Azure",
+            "href": "#diensten"
+          },
+          {
+            "label": "Microsoft 365",
+            "href": "#diensten"
+          },
+          {
+            "label": "Acronis Security",
+            "href": "#diensten"
+          },
+          {
+            "label": "VoIP & Telefonie",
+            "href": "#diensten"
+          }
+        ]
+      },
+      {
+        "title": "Bedrijf",
+        "items": [
+          {
+            "label": "Over ons",
+            "href": "#over"
+          },
+          {
+            "label": "Klanten",
+            "href": "#klanten"
+          },
+          {
+            "label": "Projecten",
+            "href": "#projecten"
+          }
+        ]
+      },
+      {
+        "title": "Contact",
+        "items": [
+          {
+            "label": "Contact opnemen",
+            "href": "#contact"
+          },
+          {
+            "label": "0222 726060",
+            "href": "tel:0222726060"
+          },
+          {
+            "label": "info@ictexel.nl",
+            "href": "mailto:info@ictexel.nl"
+          }
+        ]
+      }
+    ]
+  }
+}
