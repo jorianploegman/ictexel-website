@@ -1031,7 +1031,98 @@ git push origin main
 
 ---
 
-**Last Updated:** January 1, 2026 (23:30)
+## 🔄 Update: Klantenportfolio Uitbreiding
+
+**Date:** January 3, 2026
+**Commit:** 58add6a
+
+### Nieuwe Klanten Toegevoegd (11)
+
+**Kabel & Communicatie:**
+1. **Kabeltex**
+   - Tags: netwerkbeheer, serverbeheer, telefooncentrale
+   - Afbeeldingen: logo + bedrijfsfoto
+
+**Retail:**
+2. **Expert Texel** (Retail & Electronica)
+   - Tags: netwerkbeheer, microsoft 365, wifi
+
+3. **Keijser** (Retail & Specialist)
+   - Tags: netwerkbeheer, microsoft 365, wifi, camerabeveiliging
+
+**Service & Vastgoed:**
+4. **JD Service** (Service & Onderhoud)
+   - Tags: netwerkbeheer, microsoft 365, security
+
+5. **Texels Wonen** (Woningbouw & Vastgoed)
+   - Tags: netwerkbeheer, microsoft 365
+
+**Visserij & Advies:**
+6. **Visserij Consultant**
+   - Tags: netwerkbeheer, microsoft 365, werkplekbeheer
+
+**Natuur & Educatie:**
+7. **Vogelinformatiecentrum**
+   - Tags: netwerkbeheer, wifi, camerabeveiliging, microsoft 365
+   - Afbeeldingen: vogelinformatiecentrum-texel-logo.png, vogelinformatiecentrum-texel-bedrijf.jpg
+
+**Horeca (4 nieuwe):**
+8. **Hotel t Anker**
+   - Tags: wifi, netwerkbeheer
+
+9. **Toren Paviljoen**
+   - Tags: wifi, netwerkbeheer, camerabeveiliging
+
+10. **Casa di Gios**
+    - Tags: wifi, netwerkbeheer
+
+11. **Eetcafe de Rog**
+    - Tags: wifi, netwerkbeheer
+
+### Bestaande Klanten - Tags Bijgewerkt
+
+- **Visserij Consultant:** werkplekbeheer toegevoegd, serverbeheer verwijderd
+- **Vogelinformatiecentrum:** camerabeveiliging + microsoft 365 toegevoegd
+- **Keijser:** camerabeveiliging toegevoegd
+- **Kabeltex:** telefooncentrale toegevoegd
+- **JD Service:** microsoft 365 + security toegevoegd, serverbeheer verwijderd
+
+### Afbeeldingen Toegevoegd
+
+**Nieuwe klantafbeeldingen (40 bestanden):**
+- Logo's voor alle nieuwe klanten
+- Bedrijfsfoto's voor achtergrond weergave
+- Afbeeldingen voor bestaande klanten (ABS Graaf, DBB Texel, Duinhotel Texel, etc.)
+
+### Overige Wijzigingen
+
+- **Copyright:** Footer aangepast van 2024 naar 2026
+- **Image Mappings:** Alle nieuwe klanten toegevoegd aan Home.jsx customerImages object
+- **.gitignore:** Bijgewerkt
+
+### Statistieken
+
+- **Totaal aantal klanten:** 25 (was 14)
+- **Nieuwe bestanden:** 40 afbeeldingen
+- **Gewijzigde bestanden:** 3 (data/content.json, components/Home.jsx, .gitignore)
+- **Regels toegevoegd:** 319+ regels
+
+### Git Commits
+
+```bash
+git commit 58add6a - Update klanten: 11 nieuwe klanten toegevoegd, tags bijgewerkt en copyright 2026
+git push origin main - Deployed to production
+```
+
+### Deployment
+
+**Status:** ✅ Gepusht naar GitHub - Netlify zal automatisch deployen
+**Build Trigger:** Automatisch via GitHub webhook
+**Verwachte Deploy tijd:** 2-3 minuten
+
+---
+
+**Last Updated:** January 3, 2026
 **Build Status:** ✅ Production Live on Netlify
 **Next.js Version:** 16.1.1
 **Deployment URL:** https://ictexel.nl
