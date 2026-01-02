@@ -334,6 +334,86 @@ export default function Home() {
                 'hotel-de-lindeboom': {
                   background: '/images/customers/hotel-de-lindeboom-bedrijf.jpg',
                   logo: '/images/customers/hotel-de-lindeboom-logo.png'
+                },
+                'endo-noordkop': {
+                  background: '/images/customers/endo-noordkop-bedrijf.jpg',
+                  logo: '/images/customers/endo-noordkop-logo.png'
+                },
+                'hotel-greenside': {
+                  background: '/images/customers/hotel-greenside-bedrijf.jpg',
+                  logo: '/images/customers/hotel-greenside-logo.png'
+                },
+                'duinhotel-texel': {
+                  background: '/images/customers/duinhotel-texel-bedrijf.jpg',
+                  logo: '/images/customers/duinhotel-texel-logo.png'
+                },
+                'videolux': {
+                  background: '/images/customers/videolux-bedrijf.jpg',
+                  logo: '/images/customers/videolux-logo.png'
+                },
+                'gemeente-texel': {
+                  background: '/images/customers/gemeente-texel-bedrijf.png',
+                  logo: '/images/customers/gemeente-texel-logo.png'
+                },
+                'abs-graaf': {
+                  background: '/images/customers/abs-graaf-bedrijf.jpg',
+                  logo: '/images/customers/abs-graaf-logo.png'
+                },
+                'dbb-texel': {
+                  background: '/images/customers/dbb-texel-bedrijf.jpg',
+                  logo: '/images/customers/dbb-texel-logo.png'
+                },
+                'hotel-op-diek': {
+                  background: '/images/customers/hotel-op-diek-bedrijf.jpg',
+                  logo: '/images/customers/hotel-op-diek-logo.png'
+                },
+                'huygers-academy': {
+                  background: '/images/customers/huygens-academy-bedrijf.jpg',
+                  logo: '/images/customers/huygers-academy-logo.png'
+                },
+                'kabeltex': {
+                  background: '/images/customers/kabeltex-bedrijf.jpg',
+                  logo: '/images/customers/kabeltex-logo.png'
+                },
+                'expert-texel': {
+                  background: '/images/customers/expert-texel-bedrijf.jpg',
+                  logo: '/images/customers/expert-texel-logo.png'
+                },
+                'jdservice': {
+                  background: '/images/customers/jdservice-bedrijf.jpg',
+                  logo: '/images/customers/jdservice-logo.png'
+                },
+                'texels-wonen': {
+                  background: '/images/customers/texels-wonen-bedrijf.jpg',
+                  logo: '/images/customers/texels-wonen-logo.png'
+                },
+                'visserij-consultant': {
+                  background: '/images/customers/visserij-consultant-bedrijf.jpg',
+                  logo: '/images/customers/visserij-consultant-logo.png'
+                },
+                'keijser': {
+                  background: '/images/customers/keijser-bedrijf.jpg',
+                  logo: '/images/customers/keijser-logo.png'
+                },
+                'vogelinformatiecentrum': {
+                  background: '/images/customers/vogelinformatiecentrum-texel-bedrijf.jpg',
+                  logo: '/images/customers/vogelinformatiecentrum-texel-logo.png'
+                },
+                'hotel-t-anker': {
+                  background: '/images/customers/hotel-t-anker-bedrijf.jpg',
+                  logo: '/images/customers/hotel-t-anker-logo.png'
+                },
+                'toren-paviljoen': {
+                  background: '/images/customers/toren-paviljoen-bedrijf.jpg',
+                  logo: '/images/customers/toren-paviljoen-logo.png'
+                },
+                'casa-di-gios': {
+                  background: '/images/customers/casa-di-gios-bedrijf.jpg',
+                  logo: '/images/customers/casa-di-gios-logo.png'
+                },
+                'eetcafe-de-rog': {
+                  background: '/images/customers/eetcafe-de-rog-bedrijf.jpg',
+                  logo: '/images/customers/eetcafe-de-rog-logo.png'
                 }
               };
 

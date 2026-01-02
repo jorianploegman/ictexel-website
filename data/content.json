@@ -146,6 +146,241 @@
         "netwerkbeheer"
       ],
       "testimonial": "ICTexel zorgt ervoor dat onze gasten altijd van snelle wifi kunnen genieten."
+    },
+    {
+      "id": "endo-noordkop",
+      "name": "Endo Noordkop",
+      "industry": "Medisch",
+      "logo": "/images/customers/endo-noordkop-logo.png",
+      "tags": [
+        "netwerkbeheer",
+        "microsoft 365",
+        "serverbeheer"
+      ],
+      "testimonial": "Betrouwbare IT-infrastructuur is cruciaal voor onze medische praktijk. ICTexel levert altijd."
+    },
+    {
+      "id": "hotel-greenside",
+      "name": "Hotel Greenside",
+      "industry": "Horeca",
+      "logo": "/images/customers/hotel-greenside-logo.png",
+      "tags": [
+        "wifi",
+        "netwerkbeheer",
+        "camerabeveiliging"
+      ],
+      "testimonial": "Onze gasten waarderen de stabiele wifi-verbinding. ICTexel zorgt voor perfecte service."
+    },
+    {
+      "id": "duinhotel-texel",
+      "name": "Duinhotel Texel",
+      "industry": "Horeca",
+      "logo": "/images/customers/duinhotel-texel-logo.png",
+      "tags": [
+        "wifi",
+        "netwerkbeheer"
+      ],
+      "testimonial": "ICTexel heeft ons netwerk volledig gemoderniseerd. Onze gasten zijn zeer tevreden."
+    },
+    {
+      "id": "videolux",
+      "name": "Videolux",
+      "industry": "Media & Productie",
+      "logo": "/images/customers/videolux-logo.png",
+      "tags": [
+        "netwerkbeheer",
+        "serverbeheer",
+        "microsoft 365"
+      ],
+      "testimonial": "Snelle service en deskundig advies. ICTexel zorgt dat onze productie-infrastructuur altijd draait."
+    },
+    {
+      "id": "gemeente-texel",
+      "name": "Gemeente Texel",
+      "industry": "Overheid",
+      "logo": "/images/customers/gemeente-texel-logo.png",
+      "tags": [
+        "netwerkbeheer",
+        "microsoft 365",
+        "serverbeheer",
+        "camerabeveiliging"
+      ],
+      "testimonial": "Een betrouwbare partner voor onze IT-infrastructuur met oog voor veiligheid en continuïteit."
+    },
+    {
+      "id": "abs-graaf",
+      "name": "ABS Graaf",
+      "industry": "Bouw & Grondverzet",
+      "logo": "/images/customers/abs-graaf-logo.png",
+      "tags": [
+        "netwerkbeheer",
+        "microsoft 365"
+      ],
+      "testimonial": "ICTexel denkt praktisch mee en levert oplossingen die passen bij ons bedrijf."
+    },
+    {
+      "id": "dbb-texel",
+      "name": "DBB Texel",
+      "industry": "Bouw & Onderhoud",
+      "logo": "/images/customers/dbb-texel-logo.png",
+      "tags": [
+        "netwerkbeheer",
+        "microsoft 365",
+        "serverbeheer"
+      ],
+      "testimonial": "Professionele IT-ondersteuning die begrijpt wat wij als bouwbedrijf nodig hebben."
+    },
+    {
+      "id": "hotel-op-diek",
+      "name": "Hotel Op Diek",
+      "industry": "Horeca",
+      "logo": "/images/customers/hotel-op-diek-logo.png",
+      "tags": [
+        "wifi",
+        "netwerkbeheer"
+      ],
+      "testimonial": "Uitstekende wifi-voorzieningen voor onze gasten dankzij ICTexel."
+    },
+    {
+      "id": "huygers-academy",
+      "name": "Huygers Academy",
+      "industry": "Onderwijs",
+      "logo": "/images/customers/huygers-academy-logo.png",
+      "tags": [
+        "netwerkbeheer",
+        "microsoft 365"
+      ],
+      "testimonial": "ICTexel verzorgt onze IT-infrastructuur met kennis van zaken en persoonlijke service."
+    },
+    {
+      "id": "kabeltex",
+      "name": "Kabeltex",
+      "industry": "Kabel & Communicatie",
+      "logo": "/images/customers/kabeltex-logo.png",
+      "tags": [
+        "netwerkbeheer",
+        "serverbeheer",
+        "telefooncentrale"
+      ],
+      "testimonial": "ICTexel levert de betrouwbare IT-oplossingen die wij nodig hebben voor onze activiteiten."
+    },
+    {
+      "id": "expert-texel",
+      "name": "Expert Texel",
+      "industry": "Retail & Electronica",
+      "logo": "/images/customers/expert-texel-logo.png",
+      "tags": [
+        "netwerkbeheer",
+        "microsoft 365",
+        "wifi"
+      ],
+      "testimonial": "Professionele IT-ondersteuning voor onze winkel en online activiteiten."
+    },
+    {
+      "id": "jdservice",
+      "name": "JD Service",
+      "industry": "Service & Onderhoud",
+      "logo": "/images/customers/jdservice-logo.png",
+      "tags": [
+        "netwerkbeheer",
+        "microsoft 365",
+        "security"
+      ],
+      "testimonial": "ICTexel zorgt voor een stabiele IT-infrastructuur die altijd beschikbaar is."
+    },
+    {
+      "id": "texels-wonen",
+      "name": "Texels Wonen",
+      "industry": "Woningbouw & Vastgoed",
+      "logo": "/images/customers/texels-wonen-logo.png",
+      "tags": [
+        "netwerkbeheer",
+        "microsoft 365"
+      ],
+      "testimonial": "Betrouwbare IT-partner die begrijpt wat wij als woningcorporatie nodig hebben."
+    },
+    {
+      "id": "visserij-consultant",
+      "name": "Visserij Consultant",
+      "industry": "Visserij & Advies",
+      "logo": "/images/customers/visserij-consultant-logo.png",
+      "tags": [
+        "netwerkbeheer",
+        "microsoft 365",
+        "werkplekbeheer"
+      ],
+      "testimonial": "ICTexel levert maatwerk IT-oplossingen voor onze specifieke branche-eisen."
+    },
+    {
+      "id": "keijser",
+      "name": "Keijser",
+      "industry": "Retail & Specialist",
+      "logo": "/images/customers/keijser-logo.png",
+      "tags": [
+        "netwerkbeheer",
+        "microsoft 365",
+        "wifi",
+        "camerabeveiliging"
+      ],
+      "testimonial": "ICTexel zorgt voor een moderne en betrouwbare IT-infrastructuur voor onze winkel."
+    },
+    {
+      "id": "vogelinformatiecentrum",
+      "name": "Vogelinformatiecentrum",
+      "industry": "Natuur & Educatie",
+      "logo": "/images/customers/vogelinformatiecentrum-texel-logo.png",
+      "tags": [
+        "netwerkbeheer",
+        "wifi",
+        "camerabeveiliging",
+        "microsoft 365"
+      ],
+      "testimonial": "Stabiele netwerken en wifi voor onze bezoekers, perfect verzorgd door ICTexel."
+    },
+    {
+      "id": "hotel-t-anker",
+      "name": "Hotel t Anker",
+      "industry": "Horeca",
+      "logo": "/images/customers/hotel-t-anker-logo.png",
+      "tags": [
+        "wifi",
+        "netwerkbeheer"
+      ],
+      "testimonial": "Betrouwbare wifi en netwerk oplossingen voor onze gasten."
+    },
+    {
+      "id": "toren-paviljoen",
+      "name": "Toren Paviljoen",
+      "industry": "Horeca",
+      "logo": "/images/customers/toren-paviljoen-logo.png",
+      "tags": [
+        "wifi",
+        "netwerkbeheer",
+        "camerabeveiliging"
+      ],
+      "testimonial": "ICTexel zorgt voor een perfecte IT-infrastructuur in ons paviljoen."
+    },
+    {
+      "id": "casa-di-gios",
+      "name": "Casa di Gios",
+      "industry": "Horeca",
+      "logo": "/images/customers/casa-di-gios-logo.png",
+      "tags": [
+        "wifi",
+        "netwerkbeheer"
+      ],
+      "testimonial": "Stabiele wifi en uitstekende service voor ons restaurant."
+    },
+    {
+      "id": "eetcafe-de-rog",
+      "name": "Eetcafe de Rog",
+      "industry": "Horeca",
+      "logo": "/images/customers/eetcafe-de-rog-logo.png",
+      "tags": [
+        "wifi",
+        "netwerkbeheer"
+      ],
+      "testimonial": "Professionele IT-ondersteuning die altijd bereikbaar is."
     }
   ],
   "projects": [
@@ -293,7 +528,7 @@
   },
   "footer": {
     "tagline": "Uw betrouwbare IT-partner op Texel",
-    "copyright": "© 2024 ICTexel. Alle rechten voorbehouden.",
+    "copyright": "© 2026 ICTexel. Alle rechten voorbehouden.",
     "links": [
       {
         "title": "Diensten",
